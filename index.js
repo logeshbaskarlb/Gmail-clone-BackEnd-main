@@ -5,9 +5,6 @@ import cors from 'cors';
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
-const { google } = require('googleapis');
-const gmail = google.gmail('v1');
-
 dotenv.config();
 
 const app = express()
